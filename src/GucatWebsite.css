@@ -1,0 +1,100 @@
+/* src/GucatWebsite.css */
+
+body {
+    background-color: #d84210;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .description {
+    margin: 20px auto;
+    max-width: 80%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 0;
+    z-index: 2;
+    background-color: black;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .social-icons {
+    font-size: 35px;
+  }
+  
+  i {
+    color: white;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: yellow; /* You can change this color */
+    color: black; /* Text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .buy-button:hover {
+    background-color: violet; /* Change to your preferred hover color */
+  }
+  
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 20px auto;
+    transition: transform 0.5s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .circle-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .circle-image:hover {
+    transform: scale(1.2);
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3;
+  }
+  
